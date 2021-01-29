@@ -42,9 +42,9 @@ ul, li, a{
     /* float: left;
     margin-right:-150px; */
     /* margin-top:170px; */
-    width: 45%;
+    width: 35%;
     height: 60vh;
-    background-image:url(lengsaolee.png);
+    /* background-image:url(lii.PNG); */
     background-size: cover;
     
         
@@ -180,7 +180,7 @@ footer{
     align-items: center;
     width:100%;
     height:100vh;
-    background: #dbeefd;
+    /* background: #dbeefd; */
     margin: 5px;
 }
 .one,.two{
@@ -193,12 +193,6 @@ footer{
     width: 100%;
     padding:20px;
 }
-/* .Project{
-    /* background:#c5d9fc; */
-    /* height: 100vh;
-    width: 100%;
-    padding:20px; */ */
-
 .f{
     margin-right:70px;
 }
@@ -216,10 +210,11 @@ aside{
 
 }
 .pic{
-    background-image:url(leearikamo.PNG);
+    background-image:url(2000.jpg);
     background-size:cover;
     width:100%;
     height:100%;
+    margin-top:50px;
 }
 .column2 h4{
     margin-top:90px;
@@ -251,8 +246,8 @@ h2{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: #f1f6fa;
-    
+    /* background: #f1f6fa;
+     */
 }
 .first,.second,.three,.fouth,.fi{
     margin:15px;
@@ -332,9 +327,9 @@ h2{
 @media(max-width:768px){
     ul, li, a{
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: #ffff;
-        margin-left:10px;
+        margin-left:9px;
     }
 
     main{
@@ -355,7 +350,7 @@ h2{
         height: 90vh;
     }
     aside >p{
-        font-size:15px;
+        font-size:5px;
     }
 
     .Hobbies{
@@ -368,18 +363,23 @@ h2{
     .content1{
         color: #000;
         width: 50%;
-        height: 50vh;
+        height: 60vh;
         margin-right:5px;
         background:#cae3f7;
+        padding: 30px;
     }
     .content2{
-        height: 50vh;
+        height: 60vh;
         width: 50%;
         margin-right: 5px;
         background: #eceef0;
+        padding: 30px;
     }
     #service{
         display: inline;
+    }
+    .contact >p{
+        text-align: center;
     }
 }
 @media(max-width:568px){
@@ -387,17 +387,24 @@ h2{
         display:block;
         text-align:center;
     }
+    .pic{
+        background-image:url(2000.jpg);
+        background-size:cover;
+        width:100%;
+        height:100%;
+        margin-top:50px;
+    }
 
     main{
         display:inline;
         width: 80%;
         height: 200px;
-        padding: 350px;
+        padding: 450px;
         
     }
     .column1{
-        width: 60%;
-        height: 40vh;
+        width: 400px;
+        height:400px;
         background:#b9cbeb;
         /* margin-bottom:950px; */
        margin-top:-200px;
@@ -411,7 +418,6 @@ h2{
     .column2 >p{
         text-align: center;
     }
-        /* background:#b9cbeb;} */
     aside{
         width:90%;
         height:90vh;
@@ -458,7 +464,7 @@ h2{
          */
     }
     .column1{
-        width: 100px;
+        width: 80px;
         height:40vh;
         background:#b9cbeb;
         /* margin-bottom:950px; */
